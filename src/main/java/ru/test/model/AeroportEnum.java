@@ -1,4 +1,4 @@
-package ru.test.ideaplatform;
+package ru.test.model;
 
 public enum AeroportEnum {
     VVO("Владивосток", "Etc/GMT+7"),

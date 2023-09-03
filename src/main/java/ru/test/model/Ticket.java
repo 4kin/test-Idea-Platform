@@ -1,4 +1,4 @@
-package ru.test.ideaplatform;
+package ru.test.model;
 
 import lombok.Builder;
 import lombok.Getter;

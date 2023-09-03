@@ -1,6 +1,7 @@
-package ru.test.ideaplatform;
+package ru.test.deserializer;
 
 import com.google.gson.*;
+import ru.test.model.Ticket;
 
 import java.lang.reflect.Type;
 import java.text.ParseException;
@@ -10,17 +11,10 @@ import java.util.Date;
 public class TicketDeserializerFromJson implements JsonDeserializer {
 
     private static Date getDate(JsonObject asJsonObject, String direction) {
-//        String originString;
-//        if (direction.equals("departure")){
-//             originString = asJsonObject.get("origin").getAsString();
-//        } else {
-//            originString = asJsonObject.get("destination").getAsString();
-//        }
-//
-//        TimeZone timeZone = TimeZone.getTimeZone(AeroportEnum.valueOf(originString).getTimeZone());
+
         String dateString = asJsonObject.get(direction + "_date").getAsString() + " " + asJsonObject.get(direction + "_time").getAsString();
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd.MM.yy hh:mm");
-//        simpleDateFormat.setTimeZone(timeZone);
+
         Date parseDate = null;
         try {
             parseDate = simpleDateFormat.parse(dateString);
@@ -45,7 +39,6 @@ public class TicketDeserializerFromJson implements JsonDeserializer {
         ticket.setStops(asJsonObject.get("stops").getAsInt());
         ticket.setPrice(asJsonObject.get("price").getAsInt());
 
-//        System.out.println(ticket);
         return ticket;
     }
 }

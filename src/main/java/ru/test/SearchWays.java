@@ -5,9 +5,9 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 import com.google.gson.stream.JsonReader;
-import ru.test.ideaplatform.AeroportEnum;
-import ru.test.ideaplatform.Ticket;
-import ru.test.ideaplatform.TicketDeserializerFromJson;
+import ru.test.model.AeroportEnum;
+import ru.test.model.Ticket;
+import ru.test.deserializer.TicketDeserializerFromJson;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -37,7 +37,7 @@ public class SearchWays {
             System.out.println("Вызовете программу с параметрами путь_к_файлу_json город_откуда город_куда");
             System.out.println("Использованы переменные по умолчанию tickets.json Владивосток Тель-Авив");
             System.out.println();
-            fileName = "/tickets.json";
+            fileName = "src/main/resources/tickets.json";
             formCity = AeroportEnum.VVO.getCity();
             toCity = AeroportEnum.TLV.getCity();
         } else {
@@ -92,7 +92,6 @@ public class SearchWays {
             int middle = (size + 1) / 2;
             median = pricesList.get(middle);
         }
-
 
         return averagePrice - median;
     }

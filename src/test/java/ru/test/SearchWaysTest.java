@@ -8,7 +8,7 @@ import ru.test.model.AeroportEnum;
 
 class SearchWaysTest {
 
-    private static String fileName = "C:\\Users\\user\\IdeaProjects\\test-Idea-Platform\\src\\main\\resources\\tickets.json";
+    private static String fileName = "src/main/resources/tickets.json";
     private static String formCity = AeroportEnum.VVO.getCity();
     private static String toCity = AeroportEnum.TLV.getCity();
 
