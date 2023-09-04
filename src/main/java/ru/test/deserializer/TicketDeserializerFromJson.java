@@ -13,8 +13,7 @@ public class TicketDeserializerFromJson implements JsonDeserializer {
     private static Date getDate(JsonObject asJsonObject, String direction) {
 
         String dateString = asJsonObject.get(direction + "_date").getAsString() + " " + asJsonObject.get(direction + "_time").getAsString();
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd.MM.yy hh:mm");
-
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd.MM.yy HH:mm");
         Date parseDate = null;
         try {
             parseDate = simpleDateFormat.parse(dateString);

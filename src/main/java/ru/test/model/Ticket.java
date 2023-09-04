@@ -1,6 +1,5 @@
 package ru.test.model;
 
-import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -17,7 +16,13 @@ public class Ticket {
     private String destinationName;
     private Date departureDateTime;
     private Date arrivalDateTime;
+
+    public String getCarrier() {
+        return carrier;
+    }
+
     private String carrier;
     private Integer stops;
     private Integer price;
+
 }

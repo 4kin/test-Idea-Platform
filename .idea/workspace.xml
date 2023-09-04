@@ -4,33 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b56d21c5-4157-4ad0-86a0-b98e39228071" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="b56d21c5-4157-4ad0-86a0-b98e39228071" name="Changes" comment="исправлены ошибки close #1">
+      <change afterPath="$PROJECT_DIR$/.fastRequest/collections/Root/Default Group/directory.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.fastRequest/collections/Root/directory.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/fastRequest/fastRequestCollection.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/fastRequest/fastRequestCurrentProjectLocalConfig.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/SearchWays.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/SearchWaysTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/SearchWays_with_args.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/test/SearchWays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/test/deserializer/TicketDeserializerFromJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/test/model/AeroportEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/test/model/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/tickets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Тестовое_задание_разработчик_на_платформе.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/test/SearchWaysTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/test/dummy/DummyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/SearchWays.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/SearchWays.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/SearchWaysTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/SearchWaysTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/SearchWays_with_args.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/SearchWays_with_args.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/test/SearchWays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/test/SearchWays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/test/deserializer/TicketDeserializerFromJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/test/deserializer/TicketDeserializerFromJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/test/model/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/test/model/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/test/SearchWaysTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/test/SearchWaysTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,8 +40,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: -1
+  &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2Uu2v22QASlQJ4ocWvfC4OJJWmw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -50,32 +50,118 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/for-delete-assertj-examples/assertions-examples",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\IdeaProjects\test-Idea-Platform\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SearchWaysTest">
+  <component name="RunManager" selected="JUnit.SearchWaysTest.getMinFlightTimeBetweenCitiesByCarrier">
+    <configuration name="All in test-Idea-Platform" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-Idea-Platform" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DummyTest.dummyTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-Idea-Platform" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.test.dummy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.test.dummy" />
+      <option name="MAIN_CLASS_NAME" value="ru.test.dummy.DummyTest" />
+      <option name="METHOD_NAME" value="dummyTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchWaysTest.getMinFlightTimeBetweenCities" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-Idea-Platform" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.test" />
+      <option name="MAIN_CLASS_NAME" value="ru.test.SearchWaysTest" />
+      <option name="METHOD_NAME" value="getMinFlightTimeBetweenCities" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchWaysTest.getMinFlightTimeBetweenCitiesByCarrier" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-Idea-Platform" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.test" />
+      <option name="MAIN_CLASS_NAME" value="ru.test.SearchWaysTest" />
+      <option name="METHOD_NAME" value="getMinFlightTimeBetweenCitiesByCarrier" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.test in test-Idea-Platform" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-Idea-Platform" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.test" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.SearchWays" />
       <item itemvalue="Application.SearchWays with args" />
       <item itemvalue="JUnit.SearchWaysTest" />
+      <item itemvalue="JUnit.All in test-Idea-Platform" />
+      <item itemvalue="JUnit.DummyTest.dummyTest1" />
+      <item itemvalue="JUnit.SearchWaysTest.getMinFlightTimeBetweenCities" />
+      <item itemvalue="JUnit.SearchWaysTest.getMinFlightTimeBetweenCitiesByCarrier" />
+      <item itemvalue="JUnit.ru.test in test-Idea-Platform" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SearchWaysTest.getMinFlightTimeBetweenCitiesByCarrier" />
+        <item itemvalue="JUnit.SearchWaysTest.getMinFlightTimeBetweenCities" />
+        <item itemvalue="JUnit.All in test-Idea-Platform" />
+        <item itemvalue="JUnit.ru.test in test-Idea-Platform" />
+        <item itemvalue="JUnit.DummyTest.dummyTest1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -88,13 +174,60 @@
       <workItem from="1693775372600" duration="1641000" />
       <workItem from="1693777033147" duration="58000" />
       <workItem from="1693777105065" duration="374000" />
+      <workItem from="1693777496502" duration="289000" />
+      <workItem from="1693778025665" duration="1121000" />
+      <workItem from="1693780110300" duration="22000" />
+      <workItem from="1693808226809" duration="2000" />
+      <workItem from="1693808236338" duration="2000" />
+      <workItem from="1693808289000" duration="1050000" />
+      <workItem from="1693810487605" duration="10270000" />
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <option name="closed" value="true" />
+      <created>1693777687759</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693777687759</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/test/SearchWays.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/test/SearchWays.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="ru.test.model.Ticket" memberName="originName" />
+        <PinnedItemInfo parentTag="ru.test.model.Ticket" memberName="destinationName" />
+        <PinnedItemInfo parentTag="ru.test.model.Ticket" memberName="carrier" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

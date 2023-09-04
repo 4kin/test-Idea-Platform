@@ -3,7 +3,7 @@
     <module name="test-Idea-Platform" />
     <extension name="coverage">
       <pattern>
-        <option name="PATTERN" value="ru.test.*" />
+        <option name="PATTERN" value="ru.test.dummy.*" />
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>
